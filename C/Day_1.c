@@ -1,3 +1,4 @@
+//Using print statement
 #include <stdio.h>
 int main()
 {

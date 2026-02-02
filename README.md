@@ -15,3 +15,11 @@ C and Python codes
  Relational operations done 
  # Day_5 
  Logical operations done
+# Day_6
+Relational operator
+# Day_7
+Adding 5 with user input 
+# Day_8 
+Multiplying 3 with user input 
+# Day_9
+Dividing 6 with user number 

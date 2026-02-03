@@ -23,3 +23,5 @@ Adding 5 with user input
 Multiplying 3 with user input 
 # Day_9
 Dividing 6 with user number 
+# Day_10
+Get a two-digit number from user and print the one’s digit.

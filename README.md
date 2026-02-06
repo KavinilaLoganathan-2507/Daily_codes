@@ -29,3 +29,5 @@ Get a two-digit number from user and print the one’s digit.
 Get a two digit number and print the 10's digit
 # Day_12
 Getting three digit number from user and printing the one's digit 
+# Day_13
+Get a three-digit number from user and print the hundred’s digit.

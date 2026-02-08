@@ -33,3 +33,5 @@ Getting three digit number from user and printing the one's digit
 Get a three-digit number from user and print the hundred’s digit.
 # Day_14
 Get a three-digit number from user and print the ten’s digit
+# Day_15
+Get a three-digit number from user and print sum the digits.

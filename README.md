@@ -35,3 +35,5 @@ Get a three-digit number from user and print the hundred’s digit.
 Get a three-digit number from user and print the ten’s digit
 # Day_15
 Get a three-digit number from user and print sum the digits.
+# Day_16
+Get a two-digit number from user and print the reverse of the number

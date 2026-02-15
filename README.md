@@ -40,3 +40,4 @@ Get a two-digit number from user and print the reverse of the number
 # Day_17
 Get a three-digit number from user and print the reverse of the number
 # Day_18
+Get a four-digit number from user and only reverse the first two digits of the number, then print the number

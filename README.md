@@ -1,10 +1,7 @@
 # Daily_codes
-
 # C &  Python codes
 
                     Comparing  and learning Python and C
-
-
  # Day_1 
  Started with Hello World!
  # Day_2
@@ -42,5 +39,5 @@ Get a three-digit number from user and print the reverse of the number
 # Day_18
 Get a four-digit number from user, reverse only the first two digits of the number, then print the number
 # Day_19
-Get a four-digit number from user and only reverse the last two digits of the number, then print the number
+Get a four-digit number from user and only reverse the last two digits of the number,then print the number
 # Day_20

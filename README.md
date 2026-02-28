@@ -1,7 +1,9 @@
 # Daily_codes
 # C &  Python codes
 
+
                     Comparing  and learning Python and C
+                    
  # Day_1 
  Started with Hello World!
  # Day_2

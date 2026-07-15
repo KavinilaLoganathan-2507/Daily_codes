@@ -43,3 +43,4 @@ Get a four-digit number from user, reverse only the first two digits of the numb
 # Day_19
 Get a four-digit number from user and only reverse the last two digits of the number,then print the number
 # Day_20
+Get a two-digit number from the user and make the ten's place 1 and print the output 

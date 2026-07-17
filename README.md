@@ -46,3 +46,5 @@ Get a four-digit number from user and only reverse the last two digits of the nu
 Get a two-digit number from the user and make the ten's place 1 and print the output 
 # Day_21
 Get a three-digit number from user and make the one’s digit as 2, then print it.
+# Day_22
+Get a three-digit number from user and make the ten’s digit as 0, then print it. 

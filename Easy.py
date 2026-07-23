@@ -11,6 +11,10 @@ for i in range (len(numbers)):
         if numbers[i] == numbers[j]:
             print("duplicate",numbers[i])
 
+# Output:
+# duplicate 2
+# duplicate 3
+
 # Binary search 
 
 def binary_search_iterative(arr, target):
@@ -35,3 +39,16 @@ def binary_search_iterative(arr, target):
 
 my_list = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
 print(binary_search_iterative(my_list , 5 ))
+
+# Output:
+# 1 #index value of 5 
+
+# Get a number from user and square them 
+
+num = int(input("Enter a number: "))
+square = num * num
+print("Square =", square)
+
+# Output:
+# Enter a number: 5
+# Square = 25

@@ -158,3 +158,30 @@ print(reverse)
 #Output:
 #Enter a three-digit number: 123
 #321
+
+#_____________________________________________________________________________________________________________________________________________________________________________________________
+
+#Question: Count the Number of Digits
+#Write a Python program to:
+#Read an integer from the user.
+#Count how many digits are present in the number.
+#Print the total number of digits.
+
+
+num = int(input("Enter a number greater than 0 :"))
+count = 0
+
+if num == 0:
+    count = 1
+
+while num > 0:
+    count += 1        
+    num = num // 10  
+
+print("Total digits:", count)
+
+#Output:
+#Enter a number greater than 0 : 234
+#Total digits 3
+
+#___________________________________________________________________________________________________________________________________________________________________________________________________

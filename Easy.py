@@ -210,3 +210,33 @@ print("Sum of digits:", total)
 #10
 #___________________________________________________________________________________________________________________________________________________________________________________________________
 
+
+#Write a Python program to:
+#Read an integer from the user.
+#Reverse its digits.
+#Print the reversed number.
+
+
+
+num = int(input("Enter a number: "))
+
+# Handle negative numbers
+if num < 0:
+    num = -num
+
+reverse = 0
+
+# Reverse the number
+while num > 0:
+    last_digit = num % 10
+    reverse = reverse * 10 + last_digit
+    num = num // 10
+
+print("Reversed number:", reverse)
+
+#Output:
+#Enter a number : 34
+#43
+
+#_________________________________________________________________________________________________________________________________________________________________________________
+

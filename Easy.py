@@ -240,3 +240,35 @@ print("Reversed number:", reverse)
 
 #_________________________________________________________________________________________________________________________________________________________________________________
 
+
+# A palindrome number is a number that reads the same forwards and backwards.
+#Write a Python program to:
+
+#Read an integer from the user.
+#Reverse the number without converting it to a string.
+#Compare the reversed number with the original number.
+#Print:
+#"Palindrome" if they are equal.
+#"Not a Palindrome" otherwise.
+
+num = int(input("Enter a number: "))
+
+original_number = num
+reverse = 0
+
+while num > 0:
+    last_digit = num % 10
+    reverse = reverse * 10 + last_digit
+    num = num // 10
+
+if original_number == reverse:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+# Output:
+#Enter a number : 121
+#Palindrome 
+#enter a number : 123
+#Not a Palindrome
+
+#_____________________________________________________________________________________________________________________________________________________________________________________________

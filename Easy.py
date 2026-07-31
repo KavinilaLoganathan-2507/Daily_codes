@@ -272,3 +272,27 @@ else:
 #Not a Palindrome
 
 #_____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+#Check Whether a Number is an Armstrong Number (3-Digit)
+#An Armstrong number is a 3-digit number in which the sum of the cubes of its digits is equal to the original number.
+
+num = int(input("Enter a number :"))
+original_num = num
+sum = 0 
+while num > 0 :
+    last_digit = num % 10 
+    total = last_digit ** 3 
+    sum = sum + total 
+    num = num//10
+if sum == original_num :
+    print("Armstrong Number")
+else:
+    print("Not Armstrong Number")
+#Output:
+#Enter a number: 153
+#Armstrong Number
+#Enter a number: 123
+#Not Armstrong Number 
+
+#________________________________________________________________________________________________________________________________________________________________________________________________________

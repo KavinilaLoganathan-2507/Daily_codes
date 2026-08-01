@@ -296,3 +296,30 @@ else:
 #Not Armstrong Number 
 
 #________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+#Question: Find the Largest Digit in a Number
+#Write a Python program to:
+#Read an integer from the user.
+#Find the largest digit present in the number.
+#Print the largest digit.
+
+num = int(input("Enter a number :"))
+largest = 0 
+while num > 0 :
+    last_digit = num % 10 
+    num = num//10
+    if last_digit > largest:
+        largest = last_digit
+print(largest)
+
+#Output: Enter a number : 789
+#9
+
+#________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+    
+   
+

@@ -319,7 +319,34 @@ print(largest)
 #________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
+#Question: Count the Number of Even and Odd Digits
+#Write a Python program to:
+#Read an integer from the user.
+#Count how many even digits are present.
+#Count how many odd digits are present.
+#Print both counts.
 
-    
+num = int(input("Enter a number:"))
+odd = 0
+even = 0
+
+while num > 0:
+    last_digit = num % 10
+    num = num // 10
+
+    if last_digit % 2 != 0:
+        odd = odd + 1
+    else:
+        even = even + 1
+
+print(odd)
+print(even)
+
+#Output:
+#Enter a number: 445
+#1
+#2
+
+#_________________________________________________________________________________________________________________________________________________________________________________________________________
    
 

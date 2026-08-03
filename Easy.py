@@ -348,5 +348,27 @@ print(even)
 #2
 
 #_________________________________________________________________________________________________________________________________________________________________________________________________________
-   
 
+#Find the Smallest Digit in a Number
+#Write a Python program to:
+#Read an integer from the user.
+#Find the smallest digit present in the number.
+#Print the smallest digit.
+
+num = int(input("Enter a number:"))
+Lowest_number = num
+
+while num > 0:
+    last_digit = num % 10
+    num = num // 10
+
+    if last_digit < Lowest_number:
+        Lowest_number = last_digit
+
+    print(Lowest_number)
+
+#Output:
+#Enter a number:2431
+#1
+
+#_________________________________________________________________________________________________________________________________________________________________________________________________________

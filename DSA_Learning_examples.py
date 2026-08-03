@@ -1,3 +1,6 @@
+
+# *Array 
+
 #Let us say your expense for every month are listed below,
 #January - 2200
 #February - 2350
@@ -14,6 +17,13 @@
 #got a refund of 200$. Make a correction to your monthly expense list
 #based on this
 
+# Syntax for integer elements
+arr = list(map(int, input("Enter space-separated numbers: ").split()))
+
+# Syntax for string elements
+arr = input("Enter space-separated strings: ").split()
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
 
 monthly_expense = [2200, 2350, 2600, 2130, 2190]
 

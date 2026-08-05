@@ -385,10 +385,29 @@ while num > 0:
     last_digit = num % 10
     num = num // 10
     reverse = reverse*10 + last_digit
-    print(reverse)
+print(reverse)
 
 #Output:
 #Enter a number:123
 #321
 
 #________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#Write a Python program to:
+#Read an integer from the user.
+#Find the sum of all its digits.
+#Print the sum.
+
+num = int(input("Enter a number:"))
+sum_digit = 0
+
+while num > 0:
+    last_digit = num % 10
+    num = num // 10
+    sum_digit += last_digit
+print(sum_digit)
+#Output:
+#Enter a number : 145
+#10
+
+#_______________________________________________________________________________________________________________________________________________________________________________________________________

@@ -424,3 +424,50 @@ else:
 #Output:
 #Enter a year:2024
 #2024 is a leap year.
+
+#_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Question: Product of the Digits of a Number
+# Write a Python program to:
+# Read an integer from the user.
+# Find the product of all its digits.
+# Print the product.
+
+
+num = int(input("Enter a number:"))
+product_digit = 1
+
+while num > 0:
+    last_digit = num % 10
+    num = num // 10
+    product_digit *= last_digit
+print(product_digit)
+
+#Enter a number : 25
+#10
+
+#___________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# Question: Count the Number of Zeros in a Number
+# Problem Statement
+# Write a Python program to:
+# Read an integer from the user.
+# Count how many digits are 0.
+# Print the total number of zeros.
+
+
+num = int(input("Enter a number:"))
+Zero = 0
+while num > 0:
+    last_digit = num % 10
+    num = num // 10
+    if last_digit == 0:
+            Zero += 1 
+print(Zero)
+
+
+#Enter a number : 1008
+#2
+
+#____________________________________________________________________________________________________________________________________________________________________________________________________

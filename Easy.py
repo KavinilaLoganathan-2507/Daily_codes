@@ -471,3 +471,26 @@ print(Zero)
 #2
 
 #____________________________________________________________________________________________________________________________________________________________________________________________________
+
+#Write a Python program that:
+# Takes an integer as input.
+# Takes another digit from the user.
+# Counts how many times that digit appears in the number.
+# Prints the count.
+
+num_1 = int(input("Enter a number :"))
+num_2 = int(input("Enter a digit :"))
+count = 0
+while num_1 > 0:
+    last_digit = num_1 % 10
+    num_1 = num_1 // 10
+    if num_2 == last_digit:
+        count = count + 1
+print(count)
+
+#Output:
+#Enter a number : 151
+#Enter a digit :1
+# 2
+
+#_________________________________________________________________________________________________________________________________________________________________________________________________

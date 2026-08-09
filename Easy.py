@@ -489,8 +489,29 @@ while num_1 > 0:
 print(count)
 
 #Output:
-#Enter a number : 151
+#Enter a number: 151
 #Enter a digit :1
 # 2
 
 #_________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# Write a Python program to:
+# Take an integer as input.
+# Find the largest digit present in the number.
+# Print the largest digit.
+
+num_1 = int(input("Enter a number :"))
+largest_number = 0
+while num_1 > 0:
+    last_digit = num_1 % 10
+    num_1 = num_1 // 10
+    if last_digit > largest_number:
+        largest_number =  last_digit
+print(largest_number)
+
+#Output:
+#Enter a number:189
+#9
+
+#__________________________________________________________________________________________________________________________________________________________________________________________________

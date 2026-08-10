@@ -515,3 +515,25 @@ print(largest_number)
 #9
 
 #__________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Write a Python program to:
+# Take an integer as input.
+# Check whether the number is a prime number.
+# Print whether it is prime or not.
+
+num = int(input("Enter a number :"))
+if num <= 1:
+    print(num, "is not a prime number")
+else:
+    for i in range(2, num):
+        if (num % i) == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
+
+  #Output:
+  #Enter a number: 5
+  #is a prime number
+
+#____________________________________________________________________________________________________________________________________________________________________________________________________

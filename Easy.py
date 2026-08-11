@@ -537,3 +537,22 @@ else:
   #is a prime number
 
 #____________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+#Write a Python program to:
+# Take an integer as input.
+# Find the smallest digit present in the number.
+# Print the smallest digit.
+
+num = int(input("Enter a number :"))
+smallest_number = num
+while num > 0:
+  last_digit = num % 10
+  num = num //10
+  if last_digit < smallest_number :
+    smallest_number = last_digit
+print(smallest_number)
+
+#Output: Enter a number: 145
+#1 
+#_____________________________________________________________________________________________________________________________________________________________________

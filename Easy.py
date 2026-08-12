@@ -556,3 +556,21 @@ print(smallest_number)
 #Output: Enter a number: 145
 #1 
 #_____________________________________________________________________________________________________________________________________________________________________
+
+# Write a Python program that:
+# Takes a positive integer as input.
+# Calculates its factorial.
+# Prints the result.
+# The factorial of a number n
+#n × (n-1) × (n-2) × ... × 2 × 1
+
+num = int(input("Enter a number:"))
+factorial_number = 1
+for i in range(1, num+1):
+    factorial_number = factorial_number * i
+print(factorial_number)
+
+#Output: Enter a number:6
+#720
+
+#________________________________________________________________________________________________________________________________________________________________________

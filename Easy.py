@@ -574,3 +574,24 @@ print(factorial_number)
 #720
 
 #________________________________________________________________________________________________________________________________________________________________________
+
+
+# Write a Python program that:
+# Takes an integer as input.
+# Counts how many digits are present in the number.
+# Prints the total number of digits.
+
+num = int(input("Enter a number :"))
+count_num = 0
+while num >0:
+    last_digit = num % 10
+    num = num // 10
+    if num >= 0:
+        count_num += 1
+
+print(count_num)
+
+#Output: Enter a number: 145
+#3
+
+#________________________________________________________________________________________________________________________________________________________________________

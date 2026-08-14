@@ -595,3 +595,21 @@ print(count_num)
 #3
 
 #________________________________________________________________________________________________________________________________________________________________________
+
+# Write a Python program that:
+# Takes a positive integer N as input.
+# Calculates the sum of all natural numbers from 1 to N.
+# Prints the result.
+
+num = int(input("Enter a number N:"))
+total_sum = 0
+for i in range(1,num+1):
+    total_sum += i  
+print(total_sum)     
+
+#Output: Enter a number N:6
+#21
+
+#__________________________________________________________________________________________________________________________________________________________________________
+
+

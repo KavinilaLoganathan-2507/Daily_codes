@@ -612,4 +612,19 @@ print(total_sum)
 
 #__________________________________________________________________________________________________________________________________________________________________________
 
+# Write a Python program that:
+# Takes a word or sentence as input.
+# Counts how many vowels it contains.
+# Prints the total number of vowels.
 
+
+wrd = input("Enter a string:")
+total_count = 0
+for i in wrd:
+    total_count += 1
+print(total_count)
+
+#Output:vino
+#4
+
+#__________________________________________________________________________________________________________________________________________________________________________________

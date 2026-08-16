@@ -651,4 +651,17 @@ print(total_count)
 # Finds the largest number in the list.
 # Prints the largest number.
 
+arr = list(map(int, input("Enter space-separated numbers: ").split()))
 
+largest_number = arr[0]
+
+for i in arr:
+    if i > largest_number:
+        largest_number = i
+
+print("Largest number:", largest_number)
+
+#Output: Enter space-separated numbers: 1 4 8 2
+#Largest number : 8
+
+#_____________________________________________________________________________________________________________________________________________________________________________________________

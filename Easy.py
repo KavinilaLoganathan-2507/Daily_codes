@@ -662,6 +662,30 @@ for i in arr:
 print("Largest number:", largest_number)
 
 #Output: Enter space-separated numbers: 1 4 8 2
-#Largest number : 8
+#Largest number: 8
 
 #_____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# Write a Python program that:
+# Takes a list of integers from the user.
+# Counts how many numbers are even.
+# Counts how many numbers are odd.
+# Prints both counts.
+
+arr = list(map(int, input("Enter spaced numbers:").split()))
+even_count = 0
+odd_count = 0
+for i in arr:
+    if i%2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1 
+print("odd:",odd_count)
+print("even:",even_count)
+
+#Output: Enter spaced numbers: 1 2 3 4
+#odd:2
+#even:2
+
+#______________________________________________________________________________________________________________________________________________________________________________________________________

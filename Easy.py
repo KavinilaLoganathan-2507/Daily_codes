@@ -689,3 +689,32 @@ print("even:",even_count)
 #even:2
 
 #______________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Write a Python program that:
+# Takes a list of integers from the user.
+# Finds the second largest distinct number.
+# Prints it.
+
+arr = list(map(int, input("Enter spaced numbers: ").split()))
+
+largest = arr[0]
+second_largest = 0
+
+for num in arr:
+    if num > largest:
+        second_largest = largest
+        largest = num
+
+    elif num != largest and (second_largest is 0 or num > second_largest):
+        second_largest = num
+
+print("Second_largest:", second_largest)
+print("Largest:", largest)
+
+#Output: Enter spaced numbers:1 2 3
+#Second_largest: 2
+#Largest: 3
+
+#________________________________________________________________________________________________________________________________________________________________________________________________________
+
+

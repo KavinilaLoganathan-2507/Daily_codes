@@ -46,3 +46,72 @@ print(monthly_expense)
 # 5
 monthly_expense[3] =  monthly_expense[3] - 200 
 print(monthly_expense)
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+import numpy as np
+
+# Create two 2x2 matrices
+A = np.array([[1, 2], 
+              [3, 4]])
+              
+B = np.array([[5, 6], 
+              [7, 8]])*
+
+# 1. Addition
+add_result = A + B
+
+# 2. Subtraction
+sub_result = A - B
+
+# 3. Element-wise Multiplication
+element_mult = A * B
+
+# 4. Matrix Multiplication (Dot Product)
+dot_product = A @ B  
+# Note: np.dot(A, B) also does the exact same thing
+
+# 5. Transpose (Swapping rows and columns)
+transpose_A = A.T
+
+# Sample 2x2 Matrices
+A = [[1, 2], 
+     [3, 4]]
+     
+B = [[5, 6], 
+     [7, 8]]
+
+# 1. Addition (Element-wise)
+def add_matrices(mat1, mat2):
+    return [[mat1[i][j] + mat2[i][j] for j in range(len(mat1[0]))] for i in range(len(mat1))]
+
+# 2. Subtraction (Element-wise)
+def subtract_matrices(mat1, mat2):
+    return [[mat1[i][j] - mat2[i][j] for j in range(len(mat1[0]))] for i in range(len(mat1))]
+
+# 3. Transpose (Swapping rows to columns)
+def transpose_matrix(mat):
+    return [[mat[j][i] for j in range(len(mat))] for i in range(len(mat[0]))]
+
+# 4. Matrix Multiplication (Dot Product)
+def multiply_matrices(mat1, mat2):
+    # Initialize an empty matrix of size: rows of mat1 x cols of mat2
+    result = [[0 for _ in range(len(mat2[0]))] for _ in range(len(mat1))]
+    
+    # Iterate through rows of mat1
+    for i in range(len(mat1)):
+        # Iterate through columns of mat2
+        for j in range(len(mat2[0])):
+            # Iterate through rows of mat2
+            for k in range(len(mat2)):
+                result[i][j] += mat1[i][k] * mat2[k][j]
+                
+    return result
+
+# --- Executing the functions ---
+print("Addition:", add_matrices(A, B))
+print("Matrix Multiplication:", multiply_matrices(A, B))
+print("Transpose of A:", transpose_matrix(A))
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

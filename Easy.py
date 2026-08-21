@@ -750,3 +750,28 @@ for num in arr:
 print(unique)
 
 #________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#Count Frequency of Each Number
+# Takes a list of integers from the user.
+# Finds how many times each number appears.
+# Prints each number along with its frequency.
+# Keeps the order in which each number first appeared.
+
+arr = list(map(int, input("Enter spaced numbers: ").split()))
+
+frequencies = {}
+for num in arr:
+    if num in frequencies:
+        frequencies[num] += 1
+    else:
+        frequencies[num] = 1
+
+for num, count in frequencies.items():
+    print(f"{num}:{count}")
+
+#Output: Enter spaced numbers: 10 10 20 30
+#10 : 2
+#20 : 1
+#30 : 1
+
+#________________________________________________________________________________________________________________________________________________________________________________________________

@@ -775,3 +775,29 @@ for num, count in frequencies.items():
 #30 : 1
 
 #________________________________________________________________________________________________________________________________________________________________________________________________
+
+#Find the First Non-Repeating Character
+# Takes a string from the user.
+# Finds the first character that appears only once in the string.
+# Prints that character.
+# If every character repeats, print "No unique character".
+
+# Example 
+
+# Input:
+
+# aabbcde
+
+# Output:
+
+# c
+
+user_string = input("Enter a string: ")
+
+for char in user_string:
+    if user_string.count(char) == 1:
+        print(char)
+        break
+else:
+    print("No unique character")
+#____________________________________________________________________________________________________________________________________________________________________________________________________

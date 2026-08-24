@@ -801,3 +801,28 @@ for char in user_string:
 else:
     print("No unique character")
 #____________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# Find Common Elements Between Two Lists
+# Takes two lists of integers from the user.
+# Finds the elements that are present in both lists.
+# Prints the common elements.
+# Does not print duplicates in the result.
+
+# List 1: 1 2 3 4 5
+# List 2: 3 4 5 6 7
+
+# [3, 4, 5]
+
+arr1 = list(map(int, input("Enter first list: ").split())) 
+arr2 = list(map(int, input("Enter second list: ").split())) 
+
+common = [] 
+
+for i in arr1:
+    if i in arr2 and i not in common:
+        common.append(i)
+
+print("Common elements:", common)
+
+#___________________________________________________________________________________________________________________________________________________________________________________________________

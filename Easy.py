@@ -826,3 +826,34 @@ for i in arr1:
 print("Common elements:", common)
 
 #___________________________________________________________________________________________________________________________________________________________________________________________________
+
+#Reverse a String Without Using Slicing
+# Takes a string from the user.
+# Reverses the string.
+# Prints the reversed string.
+# Does not use slicing ([::-1]) or reversed().
+
+# Input:
+
+# hello
+
+# Output:
+
+# olleh
+
+
+user_input = input("Enter a string: ")
+
+
+reversed_string = ""
+
+
+for char in user_input:
+  
+    reversed_string = char + reversed_string
+
+print(reversed_string)
+
+
+#__________________________________________________________________________________________________________________________________________________________________________________________________________
+

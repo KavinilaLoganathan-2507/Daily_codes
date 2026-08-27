@@ -857,3 +857,33 @@ print(reversed_string)
 
 #__________________________________________________________________________________________________________________________________________________________________________________________________________
 
+#Find the Largest Word in a Sentence
+# Takes a sentence from the user.
+# Finds the longest word in the sentence.
+# Prints the longest word and its length.
+
+# Input:
+# Python programming is amazing
+# Output:
+# Longest word: programming
+# Length: 11
+
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+longest_word = ""
+
+
+for word in words:
+   
+    if len(word) > len(longest_word):
+        longest_word = word
+
+print("Longest word: ",longest_word)
+print("Length: ",len(longest_word))
+
+
+#________________________________________________________________________________________________________________________________________________________________________________________________________
+
+

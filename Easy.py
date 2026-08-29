@@ -886,4 +886,37 @@ print("Length: ",len(longest_word))
 
 #________________________________________________________________________________________________________________________________________________________________________________________________________
 
+# Check Whether a String Is a Palindrome
+# Write a Python program that:
+# Takes a string from the user.
+# Checks whether the string reads the same forward and backward.
+# Prints "Palindrome" if it is the same.
+# Prints "Not a Palindrome" if it is different.
 
+# Input:
+
+# madam
+
+# Output:
+
+# Palindrome
+
+# Input:
+
+# hello
+
+# Output:
+
+# Not a Palindrome
+
+
+wrd = input("Enter a string:")
+reversed_string = ""
+for char in wrd :
+    reversed_string = char + reversed_string 
+if wrd == reversed_string:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+#___________________________________________________________________________________________________________________________________________________________________________________________

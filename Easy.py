@@ -920,3 +920,43 @@ else:
     print("Not Palindrome")
 
 #___________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# Count Vowels and Consonants
+
+# Write a Python program that:
+
+# Takes a string from the user.
+# Counts the number of vowels.
+# Counts the number of consonants.
+# Ignores spaces, numbers, and special characters.
+# Prints both counts.
+  
+# Example 1
+
+# Input:
+
+# Hello World
+
+# Output:
+
+# Vowels: 3
+# Consonants: 7
+
+user_input = input("Enter a string: ")
+vowels = 0
+consonants = 0
+
+for char in user_input:
+    char_lower = char.lower()
+    
+    if char_lower in "aeiou":
+        vowels += 1
+        
+    elif char_lower.isalpha():
+        consonants += 1
+
+print(f"Vowels: {vowels}")
+print(f"Consonants: {consonants}")
+
+#__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
